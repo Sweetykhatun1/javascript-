@@ -1,1 +1,1 @@
-alert(23);
+document.write("I Love Bangladesh");
