@@ -1,1 +1,1 @@
-alert("Sweety Khatun");
+alert(23);
