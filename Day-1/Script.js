@@ -1,14 +1,48 @@
-var fullName = "Sweety Khatun";
-document.write( "My name is" + fullName + " Ontu" );
-var num1 = 20;
-var num2 = 30;
+// String relative Library function
 
-document.write("Num1 = " +num1 + " And Num2 = " +num2);
+var text = "sweety Khatun";
+var len = text.length;
+document.write("Number of character = " + len);
 
-var carName = "volvo";
-var Top6 = "The Financial Express";
-var Top23 = "Carandbike";
+var text = "sweety Khatun";
+document.write("Number of character = " + text.length);
 
-document.write("My first choice = " + Top6 + ", second choice = " + carName + 
-    ", third choice = " + Top23
-);
+var text = prompt("Enter your name : ");
+document.write("Number of character = " + text.length);
+
+var text = "Bangladesh";
+document.write(text.charAt(2));
+
+var text = "Bangladesh";
+document.write(text.toUpperCase());
+
+var text = "Bangladesh";
+document.write(text.toLowerCase());
+
+var text1 = "Bangladesh";
+var text2 = " Is a beautiful country.";
+document.write(text1.concat(text2));
+
+var text1 = "Bangladesh";
+var text2 = " Is a beautiful country.";
+var text = text1.concat(text2);
+document.write(text);
+
+var text1 = "Bangladesh";
+var text = text1.slice(0, 2);
+document.write(text);
+
+var text1 = "Bangladesh";
+var text = text1.slice(2, 5);
+document.write(text);
+
+var firstName = prompt("Enter your first name ");
+var lastName = prompt("Enter your last name <br>");
+var fullName = firstName + lastName;
+document.write(fullName); 
+
+document.write(fullName.length);
+
+document.write(fullName.toUpperCase());
+
+document.write(fullName.charAt(2));
