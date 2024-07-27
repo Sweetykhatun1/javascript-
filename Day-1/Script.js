@@ -1,35 +1,16 @@
-var num1 = prompt("Enter First Number : ");
-var num2 = prompt("Enter Second Number : ");
+var base = parseFloat(prompt("Enter Base = "));
+var perpendicular = parseFloat(prompt("Enter Perpendicular = "));
+var length = parseFloat(prompt("Enter Height = "));
+var height = parseFloat(prompt("Enter Height = "));
+var a = 2;
+var b = 3;
 
-var num1 = parseInt(num1,10);
-var num2 = parseInt(num2,10);
+// Trapezium
+var area = (a + b) * height / 2 ;
+document.write("Area = ", area, "<br>");
 
-var sum = num1 + num2;
-console.log("sum =", sum);
-var sub = num1 - num2;
-console.log("sub =", sub);
+var area = (a + b) * height / 2 ;
+document.write("Area = ", area, "<br>");
 
-var user1 = prompt("Enter first Number : ");
-var user2 = prompt("Enter second Number : ");
-
-var user1 = parseInt(user1,10);
-var user2 = parseInt(user2,10);
-
-var result;
-var  result= user1 + user2;
-document.write(user1, " + ", user2, " = ", result, "<br>");
-
-var result = user1 - user2;
-document.write(user1, " - ", user2, " = ", result, "<br>");
-
-var result = user1 * user2;
-document.write(user1, " * ", user2, " = ", result, "<br>");
-
-var result = user1 / user2;
-document.write(user1, " / ", user2, " = ", result, "<br>");
-
-var result = user1 % user2;
-document.write(user1, " % ", user2, " = ", result, "<br>");
-
-var result = user1 ** user2;
-document.write(user1, " ** ", user2, " = ", result, "<br>");
+var area =  (length * height) + 2 ;
+document.write("Area = ", area);
