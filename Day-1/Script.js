@@ -1,16 +1,14 @@
-var base = parseFloat(prompt("Enter Base = "));
-var perpendicular = parseFloat(prompt("Enter Perpendicular = "));
-var length = parseFloat(prompt("Enter Height = "));
-var height = parseFloat(prompt("Enter Height = "));
-var a = 2;
-var b = 3;
+// fahrenheit to Cecsius
+// Formula = (32°F − 32) × 5/9 = 0°C
+// var fahrenheit = prompt("Enter Fahrenheit : ");
+// var celsius = (fahrenheit - 32) * (5/9);
 
-// Trapezium
-var area = (a + b) * height / 2 ;
-document.write("Area = ", area, "<br>");
+// document.write("Celsius = ", celsius, "°C" );
 
-var area = (a + b) * height / 2 ;
-document.write("Area = ", area, "<br>");
+// 
+// Formula	= (0°C × 9/5) + 32 = 32°F
+// var celsius = prompt("Enter Fahrenheit : ");
+// var fahrenheit = (celsius * (9/5)) + 32;
 
-var area =  (length * height) + 2 ;
-document.write("Area = ", area);
+// document.write("Fahrenheit = ", fahrenheit, "°F" );
+
