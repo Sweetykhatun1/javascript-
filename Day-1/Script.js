@@ -1,22 +1,16 @@
-// document.write("<h1> Bangladesh </h1>");
-// document.write("<h1> Bangladesh </h1>");
-// document.write("<h1> Bangladesh </h1>");
-// document.write("<h1> Bangladesh </h1>");
-// document.write("<h1> Bangladesh </h1>");
+for(var i = 0; i <= 100; i++){
+    console.log(i);
+}
 
-var user = parseFloat(prompt("Enter your Number : "));
-var num = parseFloat(prompt("Enter your condition Number : "));
+var i = 1;
 var sum = 0;
-for(var x = user;  x <= num;  x = x+1){
-     sum = sum + x;
+while(i <= 50){
+    if(i%3 == 0 && i%5 == 0){
+        console.log(" ", i);
+        sum = sum + i;
+    }
+    i++;
 }
-console.log((sum));
-
-for(var x = 1; x <= 2; x++){
-    var num1 = parseFloat(prompt("Enter first number : "));
-    var num2 = parseFloat(prompt("Enter last number : "));
-    var sum = num1 + num2;
 console.log(sum);
-}
 
 
