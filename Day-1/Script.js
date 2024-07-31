@@ -1,27 +1,18 @@
-for(var i = 0; i <= 100; i++){
-    console.log(i);
-}
-//task -> 6 write a program that will print sum of all number that are divisible by 3 and 5 from 1-100.
+// do while loop
 
-var i = 1;
-while(i <= 50){
-    if(i%3 == 0 && i%5 == 0) {
-        console.log("", i);
-        sum = sum + i;
-    }
-    i++;
-}
-console.log(sum);
-
-var i = 0;
-while(i <= 100) {
-    console.log(i);
-    i++;
-}
-
-for(var i = 1; i <= 100; i++){
+for(var i = 1; i <= 10; i++) {
     console.log(i);
 };
 
+var i = 1; 
+while(i <= 10) {
+    console.log(i);
+    i++;
+};
 
+var i = 1;
+do{
+    console.log(i);
+    i++;
+}while((i <= 20));
 
