@@ -1,18 +1,22 @@
-// do while loop
+// break and continue explain
 
-for(var i = 1; i <= 10; i++) {
+for(i=1; i <= 100; i++) {
+    if(i == 10){
+        break;
+    }
     console.log(i);
 };
 
-var i = 1; 
-while(i <= 10) {
+for(i=1; i <= 100; i++) {
     console.log(i);
-    i++;
+    if(i == 10){
+        break;
+    }
 };
 
-var i = 1;
-do{
+for(i=1; i <= 100; i++) {
+    if(i%2 != 0){
+        continue;
+    }
     console.log(i);
-    i++;
-}while((i <= 20));
-
+};
