@@ -1,27 +1,43 @@
-// IIFEs (Immediately Invokeable Functin Expressions)
+// Array = is an object, collection of variables
+let name1, name2, name3, name4, name5;
+name1 = "Anis";
+name2 = "Anuska";
+name3 = "Anamika";
+name4 = "Atika";
+name5 = "Akij";
+console.log(name5);
 
-function display () {
-    console.log('hello');
-}
-display();
+let names = new Array();
+names[0] = "aniz";
+names[1] = "onik";
+names[2] = "Akhi";
+names[3] = "Munni";
+console.log(names.length);
+console.log(names[5]);
 
-(function display (message) {
-    console.log(message);
-})("Hello");
+let names = ["Anisul", "masuma", "lima", "tanha"];
+console.log(names.length);
+console.log(names);
+console.log(names[3]);
 
-// Task 7
-(function sum(a, b){
-    console.log(a + b);
-})(5, 9);
+// array library function
+let names = ["Anisul", "masuma", "lima", "tanha", "Kawsal"];
+console.log(names.length);
+names.push("Sweety");
+names.push("Swty");
+names.push("Swt");
+console.log(names.length);
+console.log(names[3]);
+names.push()
 
-// Function Expression
-const display2 = function displayMessage(msg) {
-    console.log(msg);
-}
-display2('I am message');
+names.pop();
+console.log(names);
 
-// () => "parantasis",
-// {} => "karli braket",
-// [] => "square braket",
-// <> => "andor braket";
+let country1 = "Bangladesh ";
+let country2 = "India";
+let country3 = "Austalia";
+let country4 = "Canada";
+
+ let country = country1.concat(country2);
+ console.log(country);
 
