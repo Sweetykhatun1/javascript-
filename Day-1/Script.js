@@ -1,43 +1,63 @@
-// Array = is an object, collection of variables
-let name1, name2, name3, name4, name5;
-name1 = "Anis";
-name2 = "Anuska";
-name3 = "Anamika";
-name4 = "Atika";
-name5 = "Akij";
-console.log(name5);
+// Array loop
 
-let names = new Array();
-names[0] = "aniz";
-names[1] = "onik";
-names[2] = "Akhi";
-names[3] = "Munni";
-console.log(names.length);
-console.log(names[5]);
+// let num = [10, 20, 30, 40];
+// console.log(num[0]);
+// console.log(num[1]);
+// console.log(num[2]);
+// console.log(num[3]);
 
-let names = ["Anisul", "masuma", "lima", "tanha"];
-console.log(names.length);
-console.log(names);
-console.log(names[3]);
+// let num = [10, 20, 30, 40];
+// let sum = 0;
+// for(let i=0; i <= 5; i++) {
 
-// array library function
-let names = ["Anisul", "masuma", "lima", "tanha", "Kawsal"];
-console.log(names.length);
-names.push("Sweety");
-names.push("Swty");
-names.push("Swt");
-console.log(names.length);
-console.log(names[3]);
-names.push()
+//     console.log(num[i]);
+//     sum = sum + num[i];
+// }
+// console.log(sum);
 
-names.pop();
-console.log(names);
+let num = new Array();
+for(var i = 0; i < 5; i++){
+    num[i] = parseFloat(prompt("Enter the number : "));
+}
 
-let country1 = "Bangladesh ";
-let country2 = "India";
-let country3 = "Austalia";
-let country4 = "Canada";
+// let sum = 0;
 
- let country = country1.concat(country2);
- console.log(country);
+// for (let i = 0; i < num.length; i++) {  // Change i <= 5 to i < num.length
+//     console.log(num[i]);
+//     sum = sum + num[i];
+// }
+// console.log(sum); 
+
+let mul = new Array();
+
+for(i = 0; i < 5; i++){
+    mul[i] = parseFloat(prompt("Enter a number : "));
+}
+
+let sum = 0;
+for(i =0; i < 5; i++){
+    console.log(mul[i]);
+    sum = sum + mul[i];
+}
+console.log(sum);
+
+
+// 40, 20, 10, 60, 90;
+// length 4
+let arr = new Array();
+for(i=0; i < 4; i++){
+    arr[i] = parseInt(prompt("Enter a number : "));
+    console.log(arr[i]);
+}
+console.log(arr);
+console.log(arr.length);
+
+
+// let sum = 0;
+// for(i=1; i <= 5; i++){
+//     sum = sum + i;
+//     console.log(sum);
+// }
+
+
 
