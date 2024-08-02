@@ -1,63 +1,43 @@
-// Array loop
+// Array methods
 
-// let num = [10, 20, 30, 40];
-// console.log(num[0]);
-// console.log(num[1]);
-// console.log(num[2]);
-// console.log(num[3]);
+var fruits = ["Olive", "OrAnges", "Ramphal", "Papaya", 
+    "Peach", "Rose apple"];
+console.log(fruits);
 
-// let num = [10, 20, 30, 40];
-// let sum = 0;
-// for(let i=0; i <= 5; i++) {
+// shift opposite of pop
+fruits.shift();
+console.log(fruits);
 
-//     console.log(num[i]);
-//     sum = sum + num[i];
-// }
-// console.log(sum);
+// unshift opposite of push
+fruits.unshift("Apple");
+console.log(fruits);
 
-let num = new Array();
-for(var i = 0; i < 5; i++){
-    num[i] = parseFloat(prompt("Enter the number : "));
-}
+// Add elements
+fruits.splice(2, 2, "Mastrad","Tamarind");
+console.log(fruits);
 
-// let sum = 0;
+// remove
+fruits.splice(1,2);
+console.log(fruits);
 
-// for (let i = 0; i < num.length; i++) {  // Change i <= 5 to i < num.length
-//     console.log(num[i]);
-//     sum = sum + num[i];
-// }
-// console.log(sum); 
+// slice
+let Newarr = fruits.slice(1);
+console.log(Newarr);
+console.log(fruits);
 
-let mul = new Array();
+var sortedNames = fruits.sort();
+fruits.reverse();
+console.log(sortedNames);
 
-for(i = 0; i < 5; i++){
-    mul[i] = parseFloat(prompt("Enter a number : "));
-}
+var num = [34, 12, 65, 75, 90, 5, 10];
+num.sort(function(a,b){
+    return a - b;
+});
+console.log(num);
 
-let sum = 0;
-for(i =0; i < 5; i++){
-    console.log(mul[i]);
-    sum = sum + mul[i];
-}
-console.log(sum);
+let Fruits = ["Water apple", "Pomegranate", "Pineapple",
+     "Rambutan", "Raspberries", "Strawberries" ];
+// "Water apple", "Pomegranate" "onion", "Rambutan", "Raspberries", "Strawberries" ;
 
-
-// 40, 20, 10, 60, 90;
-// length 4
-let arr = new Array();
-for(i=0; i < 4; i++){
-    arr[i] = parseInt(prompt("Enter a number : "));
-    console.log(arr[i]);
-}
-console.log(arr);
-console.log(arr.length);
-
-
-// let sum = 0;
-// for(i=1; i <= 5; i++){
-//     sum = sum + i;
-//     console.log(sum);
-// }
-
-
-
+    Fruits.unshift("Tamarind");
+    console.log(Fruits);
